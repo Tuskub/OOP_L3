@@ -1,6 +1,7 @@
 from pizza.pizza import Pizza
-from pizza.chicago.chicago_style_pizza import ChicagoStyleCheesePizza,\
-    ChicagoStylePepperoniPizza, ChicagoStyleVeggiePizza
+from pizza.chicago.cheesepizza import ChicagoStyleCheesePizza
+from pizza.chicago.pepperoni import ChicagoStylePepperoniPizza
+from pizza.chicago.vegiepizza import ChicagoStyleVeggiePizza
 from factories.pizza_store import PizzaStore
 
 

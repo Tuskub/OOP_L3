@@ -5,13 +5,13 @@ class Pizza(ABC):
     description: str = 'Пицца'
 
     def prepare(self):
-        print('Prepare')
+        print(f'Prepare \"{self.description}\"')
 
     def bake(self):
-        print('bake')
+        print(f'Baking \"{self.description}\"')
 
     def cut(self):
-        print('cut')
+        print(f'Cutting \"{self.description}\"')
 
     def box(self):
-        print('box')
+        print(f'Putting \"{self.description}\" in box')
