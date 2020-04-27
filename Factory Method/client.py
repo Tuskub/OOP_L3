@@ -1,5 +1,5 @@
-from factories.chicago_pizzastore import ChicagoStylePizzaStore
-from factories.ny_pizzastore import NYStylePizzaStore
+from factories.chicago import ChicagoStylePizzaStore
+from factories.ny import NYStylePizzaStore
 
 
 test = NYStylePizzaStore()
